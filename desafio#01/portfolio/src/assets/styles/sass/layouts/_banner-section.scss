@@ -1,0 +1,66 @@
+.banner-section {
+  background-color: $blue-dark;
+  height: 54.8rem;
+  display: flex;
+  padding: 4rem 8rem 8rem 8rem;
+}
+
+.welcome-container {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-container__title {
+  font-size: 6.4rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.welcome-container__paragraphy {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.banner-photo-container {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-photo-container::before {
+  content: "";
+  position: absolute;
+  height: 36.1rem;
+  width: 36.1rem;
+  background: url("./assets/img/circle.png") no-repeat;
+  border-radius: 100%;
+}
+
+
+.banner-photo-container__img {
+  position: relative;
+  height: 25.6rem;
+  width: 25.6rem;
+  border-radius: 100%;
+  top: 10.0rem;
+  left: 10.0rem;
+  z-index: 44;
+}
+
+.welcome-container__title,
+.welcome-container__paragraphy {
+  color: $white-normal;
+}
+
+.welcome-container,
+.banner-photo-container {
+  flex: 1;
+}
+
+@media (max-width: 920px) {
+  .banner-photo-container {
+    display: none;
+  }
+}
