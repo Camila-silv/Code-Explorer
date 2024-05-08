@@ -1,0 +1,19 @@
+.main-footer {
+    background-color: $blue-dark;
+    height: 8.3rem;
+}
+
+.main-footer__parag {
+    font-size: 1.6rem;
+    font-family: $secondary-font;
+    color: $white-normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-link {
+    color: $white-normal;
+    margin-left: .5rem;
+}

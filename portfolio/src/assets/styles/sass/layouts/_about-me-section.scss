@@ -1,0 +1,73 @@
+.about-me-section {
+  position: relative;
+}
+
+.about-me-section-header {
+  height: 20.4rem;
+  background: url("./assets/img/bg-sobre-mim.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-me-section-header__container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffa2;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-section-header__title {
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: $gray-normal;
+  z-index: 55;
+}
+
+.container-about-me {
+  color: $gray-normal;
+}
+
+.container-about-me__title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+}
+
+.division-container {
+  display: flex;
+}
+
+.parag-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 8rem;
+}
+
+.container-about-me__parag {
+  font-family: $secondary-font;
+  line-height: 3.6rem;
+  font-size: 2.4rem;
+}
+
+.container-about-me__parag--margin-bottom {
+  margin-bottom: 4rem;
+}
+
+.photo {
+  height: 38.2rem;
+  width: 38.2rem;
+  margin-left: 6rem;
+}
+
+@media (max-width: 940px) {
+  .photo {
+    display: none;
+  }
+
+  .parag-container {
+    margin-bottom: 4rem;
+  }
+}
