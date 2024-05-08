@@ -1,0 +1,10 @@
+.main-content {
+    height: calc(100vh - 19.8rem);
+    background-color: $gray-dark;
+}
+
+.gallery-section {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
