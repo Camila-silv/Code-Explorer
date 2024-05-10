@@ -1,0 +1,17 @@
+.main-content {
+    overflow: hidden;
+}
+
+.contact-us-container {
+    height: 100vh;
+    background-color: $lilac-normal;
+    display: flex;
+}
+
+@media (max-width:1199px) {
+    .contact-us-container {
+        flex-direction: column;
+        height: auto;
+        gap: 10.0rem;
+    }
+}

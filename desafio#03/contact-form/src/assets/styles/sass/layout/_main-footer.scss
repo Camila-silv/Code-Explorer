@@ -1,0 +1,21 @@
+.main-footer {
+  height: 9.8rem;
+  background-color: $gray-dark;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2.0rem;
+}
+
+.main-footer__link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.main-footer,
+.main-footer__link {
+  color: $white-normal;
+}

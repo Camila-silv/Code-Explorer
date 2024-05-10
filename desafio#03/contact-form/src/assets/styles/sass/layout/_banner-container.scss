@@ -1,0 +1,21 @@
+.banner-section {
+  background-color: $lilac-dark;
+  height: 30rem;
+  position: relative;
+}
+
+.banner-container {
+  position: absolute;
+  width: 100%;
+  bottom: -4px;
+  left: 0px;
+}
+
+.banner-container::before {
+  content: "";
+  height: 34.2rem;
+  display: block;
+  background: url("../../img/foguete.png") no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
