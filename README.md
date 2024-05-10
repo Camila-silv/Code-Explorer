@@ -5,3 +5,4 @@
 
 - Deploy, desafio-#01: <a href="https://desafio-1-brown.vercel.app/" target="_blank">Projeto</a>
 - Deploy, desafio-#02: <a href="https://galeria-sandy.vercel.app/" target="_blank">Projeto</a>
+- Deploy, desafio-#03: <a href="https://code-explorer-chi.vercel.app/" target="_blank">Projeto</a>
