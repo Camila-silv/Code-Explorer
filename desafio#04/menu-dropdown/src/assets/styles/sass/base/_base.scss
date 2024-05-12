@@ -1,0 +1,9 @@
+#root {
+  display: grid;
+  grid-template-areas:
+    "navbar header header header"
+    "navbar main main main";
+  grid-template-columns: 15rem auto auto auto;
+  grid-template-rows: 9rem calc(100vh - 9rem);
+  font-family: $default-font;
+}
