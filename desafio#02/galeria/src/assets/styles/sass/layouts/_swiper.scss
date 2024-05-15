@@ -1,0 +1,54 @@
+.swiper-slide {
+  cursor: pointer;
+  height: 33.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide img {
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: $blue-dark;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.carousel div {
+  min-width: 51.2rem;
+}
+
+@media (max-width: 1400px) {
+  .carousel {
+    width: calc(51.2rem * 2);
+  }
+
+  .carousel div {
+    min-width: 51.2rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .carousel {
+    width: 76rem;
+  }
+
+  .carousel div {
+    min-width: 38rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width: 38rem;
+  }
+
+  .carousel div {
+    min-width: 38rem;
+  }
+}
